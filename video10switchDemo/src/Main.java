@@ -8,8 +8,7 @@
  * @author matma
  */
 public class Main {
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         char grade = 'A';
 
         switch (grade) {
@@ -32,6 +31,5 @@ public class Main {
                 System.out.println("Geçersiz not girdiniz.");
         }
 
-    }
-
+    } 
 }
