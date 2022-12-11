@@ -7,8 +7,13 @@
  *
  * @author matma
  */
-public class NewClass {
+public class Main {
+
     public static void main(String[] args) {
-        System.out.println("s");
+        for (int i = 2; i <= 10; i+=2) {
+            System.out.println(i);
+        }
+        System.out.println("Döngü Bitti");
     }
+
 }
